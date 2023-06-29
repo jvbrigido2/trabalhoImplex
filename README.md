@@ -11,7 +11,7 @@ Após instalar o python é necessário instalar o biblioteca _`numpy`_
 python -m pip install --user numpy
 ~~~
 
-_Obs.: esse comando é utilizado para instalar o numpy no windows_
+_Obs: esse comando é utilizado para instalar o numpy no windows_
 
 Para executar o código, utilize este comando dentro da pasta do projeto:
 ~~~bash 
