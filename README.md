@@ -13,7 +13,7 @@ python -m pip install --user numpy
 
 _Obs.: esse comando é utilizado para instalar o numpy no windows_
 
-E para realizar a execução do código, é só utilizar o comando dentro da pasta do projeto
+Para executar o código, utilize este comando dentro da pasta do projeto:
 ~~~bash 
 python Main.py
 ~~~
