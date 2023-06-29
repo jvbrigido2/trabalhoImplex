@@ -22,7 +22,7 @@ def solucaoRandom (grafo):
 
 
 def run(path, TemperaturaMAX, TemperaturaMIN, k, iteracoes):
-    grafo = Grafo.creatGraph(path)
+    grafo = Grafo.criarGrafo(path)
 
     Temperatura = TemperaturaMAX
 
