@@ -1,19 +1,19 @@
 import numpy
 import random
-import Utils
+import Grafo
 
 def distanciaSolucao(grafo, solucao):
     distancia = 0
     for i in range(len(solucao) - 1):
-        distancia += grafo.distanciaBetweenVertices(solucao[i], solucao[i + 1])
+        distancia += grafo.distanciaEntreVertices(solucao[i], solucao[i + 1])
     return distancia
 
 
 def solucaoRandom (grafo):
-    cidades = grafo.getAllVerticesIndex().tolist()
+    cidades = grafo.getTodosIndices().tolist()
     solucao = []
 
-    for i in range(len(grafo.getAllVerticesIndex())):
+    for i in range(len(grafo.getTodosIndices())):
         cidadeRandom = cidades[random.randint(0, len(cidades) - 1)]
         solucao.append(cidadeRandom)
         cidades.remove(cidadeRandom)
@@ -22,7 +22,7 @@ def solucaoRandom (grafo):
 
 
 def run(path, TemperaturaMAX, TemperaturaMIN, k, iteracoes):
-    grafo = Utils.creatGraph(path)
+    grafo = Grafo.creatGraph(path)
 
     Temperatura = TemperaturaMAX
 
