@@ -1,4 +1,8 @@
 # Trabalho de implex
+## Alunos
+* Matheus Rodrigues C. Gonçalves 2018.1906.059-4
+* Joao Victor de Oliveira Brigido 2018.1906.040-3
+
 ## Recursos
 * Python 3.9
 * numpy
